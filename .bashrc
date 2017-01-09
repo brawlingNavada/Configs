@@ -116,3 +116,5 @@ if ! shopt -oq posix; then
   fi
 fi
 alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias hitme="cat *notes* | grep CQ: | shuf"
+
